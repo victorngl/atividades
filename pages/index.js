@@ -3,7 +3,7 @@ import React from 'react';
 import CardForm from './CardForm';
 import AtividadesForm from './AtividadesForm'
 import Layout from './Layout'
-import Login from './login'
+import Login from './Login'
 
 export default function Home() {
 
