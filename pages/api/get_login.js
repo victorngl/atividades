@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       aluno: false, // Return all fields
     },
   })
-  
+
   return res.status(200).json({ login: login })
   
 }
