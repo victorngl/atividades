@@ -102,7 +102,7 @@ export default function Login({ children }) {
           </div>
 
         }
-        {/*
+        
         <form onSubmit={handleSubmit}>
           <>
             <div className='text-lg text-center mb-6 font-bold text-lg font-medium'>Informe suas credenciais</div>
@@ -124,8 +124,8 @@ export default function Login({ children }) {
           </div>
           
         </form>
-        */}
-        <p className='text-lg font-semibold'>As incrições ainda não iniciaram.</p>
+        
+        {/*<p className='text-lg font-semibold'>As incrições ainda não iniciaram.</p>*/}
       </div>
     </div >
 
