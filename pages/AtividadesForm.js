@@ -35,11 +35,11 @@ const OficinasEsportivas = [
 
 const OficinasCulturais = [
   { id: 1, name: 'Coral - 1º e 2º /EF', permission: [{ serie: '1º Ano' }, { serie: '2º Ano' }] },
-  { id: 2, name: 'Coral -  3º /EF ao E. Médio', permission: [{ serie: '3º Ano' }, { serie: '4º Ano' }, { serie: '5º Ano' }, { serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1º Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
+  { id: 2, name: 'Coral -  3º /EF ao E. Médio', permission: [{ serie: '3º Ano' }, { serie: '4º Ano' }, { serie: '5º Ano' }, { serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1ª Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
   { id: 3, name: 'Flauta - 2º ao 5º /EF', permission: [{ serie: '2º Ano' }, { serie: '3º Ano' }, { serie: '4º Ano' }, { serie: '5º Ano' }] },
-  { id: 4, name: 'Ukulele - 5º /EF ao E. MédioF', permission: [{ serie: '5º Ano' }, { serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1º Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
+  { id: 4, name: 'Ukulele - 5º /EF ao E. MédioF', permission: [{ serie: '5º Ano' }, { serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1ª Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
   { id: 5, name: 'Desenho Artístico - 4º e 5º /EF', permission: [{ serie: '4º Ano' }, { serie: '5º Ano' }] },
-  { id: 6, name: 'Desenho Artístico - 6º /EF ao E. Médio', permission: [{ serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1º Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
+  { id: 6, name: 'Desenho Artístico - 6º /EF ao E. Médio', permission: [{ serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }, { serie: '1ª Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
 ];
 
 export default function AtividadesForm({ }) {
