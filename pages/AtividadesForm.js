@@ -3,7 +3,7 @@ import { AuthContext } from './providers/auth';
 import moment from 'moment/moment';
 
 const OficinasEsportivas = [
-  { id: 1, name: 'BASQUETE - 3º ao 5º /EF', permission: [{ serie: '3º Ano' }, { serie: '5º Ano' }, { serie: '5º Ano' }] },
+  { id: 1, name: 'BASQUETE - 3º ao 5º /EF', permission: [{ serie: '3º Ano' }, { serie: '4º Ano' }, { serie: '5º Ano' }] },
   { id: 2, name: 'BASQUETE - 6º ao 8º /EF', permission: [{ serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }] },
   { id: 3, name: 'BASQUETE - 9º/EF ao 3º E. Médio', permission: [{ serie: '9º Ano' }, { serie: '1ª Série' }, { serie: '2ª Série' }, { serie: '3ª Série' }] },
   { id: 4, name: 'CAPOEIRA - 1º e 2º /EF', permission: [{ serie: '1º Ano' }, { serie: '2º Ano' }] },
