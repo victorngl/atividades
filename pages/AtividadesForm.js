@@ -155,13 +155,13 @@ export default function AtividadesForm({ }) {
         <div className='text-lg font-semibold text-justify mb-6'>Prezado (a) Associado(a), o presente questionário tem como objetivo agilizar o processo
           de inscrição nas atividades complementares noturnas do aluno para o Ano letivo de 2023.</div>
         <div className="relative z-0 mb-6 w-full group">
-          <input value={responsavel.aluno.nome} type="name" name="nome" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " disabled />
-          <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nome do aluno</label>
+          <input value={responsavel.aluno.nome} type="name" name="nome" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " disabled />
+          <label htmlFor="floating_email" className="font-bold peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nome do aluno</label>
         </div>
 
         <div className="relative z-0 mb-6 w-full group">
-          <input value={responsavel.aluno.s_rie} type="name" name="nome" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " disabled />
-          <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Série do Aluno em 2023:</label>
+          <input value={responsavel.aluno.s_rie} type="name" name="nome" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " disabled />
+          <label htmlFor="floating_email" className="font-bold peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Série do Aluno em 2023:</label>
         </div>
 
         <div className='my-7 w-full justify-center flex'>
@@ -177,14 +177,14 @@ export default function AtividadesForm({ }) {
           <div className='mb-2'>Deseja que a primeira opção seja?</div>
           <fieldset className='flex gap-10 mb-5' >
             <div className="flex items-center mb-4">
-              <input id="country-option-2" type="radio" name="countries" defaultValue="Esportiva" className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
-              <label htmlFor="country-option-2" className="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              <input id="country-option-2" type="radio" name="countries" defaultValue="Esportiva" className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 " />
+              <label htmlFor="country-option-2" className="block ml-2 text-sm font-medium text-gray-900 ">
                 Esportiva
               </label>
             </div>
             <div className="flex items-center mb-4" >
-              <input required id="country-option-1" type="radio" name="countries" defaultValue="Cultural" className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
-              <label htmlFor="country-option-1" className="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              <input required id="country-option-1" type="radio" name="countries" defaultValue="Cultural" className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 " />
+              <label htmlFor="country-option-1" className="block ml-2 text-sm font-medium text-gray-900">
                 Cultural
               </label>
             </div>
@@ -193,8 +193,8 @@ export default function AtividadesForm({ }) {
 
 
         <div className='mb-5' onChange={onEsportivaValueChange}>
-          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Escolha uma atividade esportiva: {AtividadePrioridade == 'Esportiva' && <h3 className='font-bold'> Atividade Prioritária </h3>}</label>
-          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900">Escolha uma atividade esportiva: {AtividadePrioridade == 'Esportiva' && <h3 className='font-bold'> Atividade Prioritária </h3>}</label>
+          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
             <option value="Não se aplica" >Não se aplica</option>
 
             {OficinasEsportivas.map((modalidade, index) =>
@@ -211,8 +211,8 @@ export default function AtividadesForm({ }) {
         <div className='mb-5' onChange={onCulturalValueChange}>
 
 
-          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Escolha uma atividade cultural: {AtividadePrioridade == 'Cultural' && <h3 className='font-bold'> Atividade Prioritária </h3>}</label>
-          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900">Escolha uma atividade cultural: {AtividadePrioridade == 'Cultural' && <h3 className='font-bold'> Atividade Prioritária </h3>}</label>
+          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
 
             <option value="Não se aplica">Não se aplica</option>
 
@@ -231,8 +231,8 @@ export default function AtividadesForm({ }) {
         </div>
 
         <div className='mb-5' onChange={onOptativaValueChange}>
-          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Escolha uma atividade optativa: </label>
-          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          <label required htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900">Escolha uma atividade optativa: </label>
+          <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
             <option value="Não se aplica">Não se aplica</option>
 
             {OficinasEsportivas.map((modalidade, index) =>
@@ -256,7 +256,7 @@ export default function AtividadesForm({ }) {
         </div>
 
         <div className='text-sm font-semibold text-justify mb-3 mt-10'>*Verifique as modalidades antes de Enviar</div>
-        <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
+        <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Enviar</button>
       </form>
     </div>
 
