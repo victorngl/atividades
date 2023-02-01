@@ -9,7 +9,7 @@ const OficinasEsportivas = [
   { id: 4, name: 'CAPOEIRA - 1º e 2º /EF', permission: [{ serie: '1º Ano' }, { serie: '2º Ano' }] },
   { id: 5, name: 'CAPOEIRA - 3º /EF', permission: [{ serie: '3º Ano' }] },
   { id: 6, name: 'CAPOEIRA - 4º e 5º /EF', permission: [{ serie: '4º Ano' }, { serie: '5º Ano' }] },
-  { id: 7, name: 'CAPOEIRA - 6º ao 9º /EF', permission: [{ serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }] },
+  { id: 7, name: 'CAPOEIRA - 6º ao 9º /EF', permission: [{ serie: '6º Ano' }, { serie: '7º Ano' }, { serie: '8º Ano' }, { serie: '9º Ano' }] },
   { id: 8, name: 'ESCOLA DA BOLA - 1º /EF', permission: [{ serie: '1º Ano' }] },
   { id: 9, name: 'ESCOLA DA BOLA - 2º/EF', permission: [{ serie: '2º Ano' }] },
   { id: 10, name: 'FUTSAL (masc) - 5º /EF', permission: [{ serie: '5º Ano' }] },
