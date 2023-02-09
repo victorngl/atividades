@@ -89,11 +89,15 @@ export default function CardForm({children}) {
 
                 <div className="text-center m-5 " >
 
+                  {/*
                   {user.aluno.resposta  == 0 ?
                     <button className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-3 rounded' onClick={e => handleClick(e, index)}>Realizar Inscrição</button>
                     :
                     <button className='bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-3 rounded' onClick={e => handleClick(e, index)}>Alterar Inscrição</button>
-                  }
+                  }*/}
+
+                  <button className='bg-gray-500 text-white font-bold py-2 px-3 rounded' disabled>Inscrições Encerradas</button>
+
 
                 </div>
 
